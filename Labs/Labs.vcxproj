@@ -88,6 +88,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp20</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -140,25 +141,33 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="BoundedBuffer.h" />
+    <ClInclude Include="ExerciseGroups.h" />
     <ClInclude Include="InternationalStudent.h" />
     <ClInclude Include="lab1.h" />
     <ClInclude Include="lab2.h" />
     <ClInclude Include="lab3.h" />
     <ClInclude Include="lab4.h" />
+    <ClInclude Include="lab5.h" />
+    <ClInclude Include="lab6a.h" />
     <ClInclude Include="Student.h" />
+    <ClInclude Include="Ticket.h" />
     <ClInclude Include="utils.h" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="Data.txt" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="ExerciseGroups.cpp" />
     <ClCompile Include="InternationalStudent.cpp" />
     <ClCompile Include="lab1.cpp" />
     <ClCompile Include="lab2.cpp" />
     <ClCompile Include="lab3.cpp" />
     <ClCompile Include="lab4.cpp" />
+    <ClCompile Include="lab5.cpp" />
+    <ClCompile Include="lab6a.cpp" />
     <ClCompile Include="program.cpp" />
     <ClCompile Include="Student.cpp" />
+    <ClCompile Include="Ticket.cpp" />
     <ClCompile Include="utils.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

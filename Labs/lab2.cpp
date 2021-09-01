@@ -1,8 +1,8 @@
+#include "lab2.h"
+
 #include "BoundedBuffer.h"
 #include <iomanip>
 #include <iostream>
-#include "lab2.h"
-#include <string>
 #include "utils.h"
 
 void Lab2::ex1()

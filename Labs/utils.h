@@ -3,6 +3,8 @@
 
 #include <string>
 
+std::string heading(std::string const& text);
+
 template <typename T>
 constexpr std::string get_type(T t)
 {

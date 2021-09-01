@@ -1,5 +1,6 @@
-#include "InternationalStudent.h"
 #include "lab4.h"
+
+#include "InternationalStudent.h"
 #include <memory>
 #include "Student.h"
 #include <vector>

@@ -1,6 +1,7 @@
+#include "lab3.h"
+
 #include <fstream>
 #include <iostream>
-#include "lab3.h"
 #include <string>
 #include <regex>
 

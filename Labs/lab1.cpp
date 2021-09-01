@@ -1,7 +1,8 @@
+#include "lab1.h"
+
 #include <iostream>
 #include <array>
 #include "BoundedBuffer.h"
-#include "lab1.h"
 #include <map>
 #include "utils.h"
 
@@ -38,6 +39,7 @@ void Lab1::ex2()
 		std::cout << player.first << ": " << player.second << std::endl;
 	}
 }
+
 void Lab1::ex3()
 {
 	BoundedBuffer<int, 8> myBuffer;
